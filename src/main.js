@@ -28,6 +28,7 @@ Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin);
 
+// this function is used to truncate the amount of characters you want to display to users
 var filter = function(text, length, clamp) {
 	clamp = clamp || "...";
 	var node = document.createElement("div");

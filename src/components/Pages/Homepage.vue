@@ -128,7 +128,7 @@
 			<!-- This section is used to serve the second background image  -->
 			<div class="jumbotron secondbackgroundstyle my-5">
 				<div class="container">
-					<h6 class="text-white">HealthThink Database currently contains:</h6>
+					<h6 class="text-white">HealthData4You Database currently contains:</h6>
 					<div class="row ">
 						<div class="col-md-4 col-sm-12 background_text text-white">
 							<div class="row">

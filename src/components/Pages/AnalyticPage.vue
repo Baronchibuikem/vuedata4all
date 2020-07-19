@@ -2,7 +2,7 @@
 	<v-app class="">
 		<div class="container-fluid AboutImg2">
 			<div class="container align-items-end mt-12 pt-12">
-				<h4 class="text-light mt-8 pt-8">HealthThink Analytics</h4>
+				<h4 class="text-light mt-8 pt-8">HealthData4You Analytics</h4>
 			</div>
 		</div>
 		<div class="text-center mt-12 container">
@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
 					<div class="py-12 px-12">
-						<h2>HealthThink Analytical Services</h2>
+						<h2>HealthData4You Analytical Services</h2>
 						<h5>
 							Analytical Services adds value to the data through careful
 							analysis and the creation of reports which present clients with

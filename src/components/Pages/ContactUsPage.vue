@@ -41,8 +41,8 @@
 						Our Team is happy to answer your questions. Fill out the form and
 						we'll be in touch with you as soon as possible.
 					</p>
-					<h5 class="font-weight-bold col-md-7">healththink@e4email.net</h5>
-					<h5 class="font-weight-bold col-md-7">+2349021720570</h5>
+					<h5 class="font-weight-bold col-md-7">HealthData4You.net</h5>
+					<h5 class="font-weight-bold col-md-7">+2349030000000</h5>
 					<div>
 						<i
 							class="fab fa-facebook mr-5"

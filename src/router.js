@@ -124,6 +124,8 @@ let router = new VueRouter({
 	]
 });
 
+// Used to check if a route is projected, if it is then you are required to
+// be authenticated before you can access it
 router.beforeEach((to, from, next) => {
 	if (to.matched.some(record => record.meta.requiresAuth)) {
 		if (store.getters.isLoggedIn) {

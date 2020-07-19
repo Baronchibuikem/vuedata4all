@@ -69,7 +69,7 @@
 														<v-card-text>
 															<div class="d-flex justify-content-between">
 																<img
-																	src="../../assets/images/healththink_logo.svg"
+																	src="../../assets/images/logo.jpg"
 																	width="20%"
 																	class="my-4"
 																/>
@@ -119,7 +119,7 @@
 																</div>
 															</div>
 															<div class="text-center mt-4">
-																Compare HealthThink Database plans at our
+																Compare HealthData4You Database plans at our
 																<router-link to="/plan">
 																	Pricing Page</router-link
 																>
@@ -200,7 +200,7 @@
 														<v-card-text>
 															<div class="d-flex justify-content-between">
 																<img
-																	src="../../assets/images/healththink_logo.svg"
+																	src="../../assets/images/logo.jpg"
 																	width="20%"
 																	class="my-4"
 																/>
@@ -250,7 +250,7 @@
 																</div>
 															</div>
 															<div class="text-center mt-4">
-																Compare HealthThink Database plans at our
+																Compare HealthData4You Database plans at our
 																<router-link to="/plan">
 																	Pricing Page</router-link
 																>
@@ -325,7 +325,7 @@
 									<v-card-text>
 										<div class="d-flex justify-content-between">
 											<img
-												src="../../assets/images/healththink_logo.svg"
+												src="../../assets/images/logo.jpg"
 												width="20%"
 												class="my-4"
 											/>
@@ -369,7 +369,7 @@
 											</div>
 										</div>
 										<div class="text-center mt-4">
-											Compare HealthThink Database plans at our
+											Compare HealthData4You Database plans at our
 											<router-link to="/plan"> Pricing Page</router-link>
 										</div>
 									</v-card-text>
@@ -426,15 +426,12 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-12 bg-light">
-					<h5>HEALTHTHINK BLOG</h5>
+					<h5>HealthData4You BLOG</h5>
 					<img :src="DataPic4" class="" height="60%" width="100%" />
 					<div class="d-flex justify-content-center py-1">
 						<v-btn small color="#413A76" class="text-light my-1"
-							><a
-								href="https://healththink.org/"
-								target="__blank__"
-								style="color:white"
-								>VISIT BLOG</a
+							><router-link exact to="#"
+								>VISIT BLOG</router-link
 							></v-btn
 						>
 					</div>

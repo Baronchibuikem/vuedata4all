@@ -6,14 +6,15 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-12 text-center">
 							<img
-								src="../../assets/images/healththink_footer_logo.svg"
+								src="../../assets/images/logo.jpg"
 								class="img-responsive"
 								width="100%"
 							/>
+							HealthData4You<br>
 							<small
-								>Product of
+								>
 								<span style="text-decoration: underline"
-									>eHealth4everyone</span
+									>Product of Data for all community</span
 								></small
 							>
 						</div>
@@ -21,7 +22,7 @@
 							<ul class="list-unstyled">
 								<h6>ABOUT</h6>
 								<li><small>Our Data</small></li>
-								<li><small>HealthThink Analytics</small></li>
+								<li><small>HealthData4You Analytics</small></li>
 								<li><small>Pricing</small></li>
 								<li><small>Privacy Policy</small></li>
 								<li><small>Terms & Conditions</small></li>
@@ -59,20 +60,20 @@
 								<li><small>Publications</small></li>
 								<li><small>Journals</small></li>
 								<li><small>White Papers</small></li>
-								<li><small>HealthThink Blog</small></li>
+								<li><small>Data4U Blog</small></li>
 							</ul>
 						</div>
 						<div class="col-md-3 col-sm-12">
 							<ul class="list-unstyled">
 								<h6>CONTACT US</h6>
 								<li><small>+2349021720570</small></li>
-								<li><small>info@eHealth4everyone.com</small></li>
+								<li><small>info@Data4u.com</small></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-12 ">
-					<h6 class="mt-4">Subscribe to HealthThink via Email</h6>
+					<h6 class="mt-4">Subscribe to HealthData4You via Email</h6>
 					<div class="row">
 						<div class="col-md-8 text-light">
 							<input

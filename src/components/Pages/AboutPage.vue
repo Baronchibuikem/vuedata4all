@@ -2,7 +2,7 @@
 	<v-app>
 		<div class="container-fluid AboutImg2">
 			<div class="container align-items-end mt-12 pt-12">
-				<h4 class="text-light mt-8 pt-8">About HealthThink</h4>
+				<h4 class="text-light mt-8 pt-8">About HealthData4You</h4>
 			</div>
 		</div>
 		<div class="container mb-12">
@@ -10,7 +10,7 @@
 				<div class="col-md-6 col-sm-12">
 					<div class="pt-12 mt-5 col-md-8 mx-auto ">
 						<p>
-							HealthThink provides information, analytics solutions and digital
+							HealthData4You provides information, analytics solutions and digital
 							tools in the areas of strategic research management, R&D
 							performance, clinical decision support, and professional
 							education.
@@ -94,7 +94,7 @@
 						<div class="col-md-6 col-sm-12 AboutImg10"></div>
 						<div class="col-md-6 col-sm-12">
 							<div class="pt-5 mt-5 col-md-8 mx-auto">
-								<h4>HealthThink Analytics</h4>
+								<h4>HealthData4You Analytics</h4>
 								<p>
 									Sometimes, data is all you need. Other times, you need the
 									benefit of data that has been aggregated, synthesized and

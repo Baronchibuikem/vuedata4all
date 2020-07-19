@@ -6,196 +6,29 @@
 				<p class="text-center">
 					We have a range of plans to suit your research needs
 				</p>
+				<div class="d-flex col-md-4 mx-auto">
+				<button disabled="disabled" style="background-color: #413A76" class="form-control text-light w-50">Annual</button>
+				<button disabled="disabled" class="form-control text-dark w-50">Monthly</button>
+				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-9 col-sm-12 mx-auto">
+			<!-- <div class="row">
+				<div class="col-md-9 col-sm-12 mx-auto"> -->
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
 							<div
-								class="card text-center container"
-								style="width: 18rem; background-color: #E8EFF7; height:1500px"
-							>
-								<h5 class="mt-12">BASIC</h5>
-								<h3 class="font-weight-bold display-2">FREE</h3>
-								<p>Search public data</p>
-								<p class="">
-									<router-link to="#" style="text-decoration: underline"
-										>View Details</router-link
-									>
-								</p>
-								<v-btn large color="#413A76" class="text-light mx-5 mt-6"
-									><router-link to="/login" style="color: white"
-										>BROWSE DATA-FOR FREE</router-link
-									></v-btn
-								>
-								<hr />
-								<div class="card-body">
-									<ul class="text-left list-unstyled">
-										<li class="my-4 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i>
-											Browse all our publicly available data sources for free!
-										</li>
-										<li class="my-4 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Customer Support: Email only
-										</li>
-										<li class="my-4 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i>
-											Receive the latest health data updates from the
-											HealthThink Blog
-										</li>
-										<li class="my-4 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Receive the latest digital health updates and industry
-											briefs from our Monthly Newsletter
-										</li>
-										<li class="my-4 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Mobile access
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-12">
-							<div
-								class="card text-center text-light container"
-								style="width: 18rem; background-color: #6158C9; height:1500px"
-							>
-								<h5 class="mt-12">STANDARD</h5>
-								<h3 class="font-weight-bold display-2">₦9999</h3>
-								<p class="px-7">Make better decisions with custom data</p>
-								<p>
-									<router-link
-										to="#"
-										style="color: white !important; text-decoration: underline"
-										>View Details</router-link
-									>
-								</p>
-
-								<v-btn large class="mx-5" style="background-color: #E8EFF7; "
-									><router-link to="/login" style="color: black !important"
-										>SUBSCRIBE</router-link
-									></v-btn
-								>
-								<hr />
-								<div class="card-body">
-									<ul class="text-left">
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Browse all our publicly available data sources for free!
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Customer Support: Phone calls and Emails
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Receive the latest health data updates from the
-											HealthThink Blog
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Receive the latest digital health updates and industry
-											briefs from our Monthly Newsletter
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Mobile access
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Freely access over 1000 of our specialized commercial
-											databases
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Make better decisions with our customized data view and
-											personal dashboards.
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Deepen data insights with our web- based data analytics,
-											visualization and Interpretation tools
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Share your discoveries by exporting your data and
-											visualizations.
-										</li>
-										<li class="my-5 d-flex">
-											<i
-												class="fa fa-check mr-3"
-												style="font-size:20px;color:green"
-											></i
-											>Manage your preferred datasets with push notifications
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-12">
-							<div
-								class="card text-center"
-								style="width: 18rem; background-color: #E8EFF7; height:1500px"
+								class="text-center"
+								style="height:1350px"
 							>
 								<h5 class="mt-12">BUSINESS</h5>
-								<h3 class="font-weight-bold display-2">₦14999</h3>
-								<p class="px-7">Make better decisions with custom data</p>
-								<p>
-									<router-link to="/login" style="text-decoration: underline"
-										>View Details</router-link
-									>
-								</p>
+								<p class="px-7">Make better decisions with custom data and so much more</p>
+								<h6><span class="font-weight-bold display-1">₦8,580</span>/month</h6>
+								<p class="px-7">Billed at ₦42,900 every year</p>
+
 								<v-btn large color="#413A76" class=" mx-5"
 									><router-link to="/login" style="color: white"
-										>SUBSCRIBE</router-link
+										>CHOOSE PLAN</router-link
 									></v-btn
 								>
 								<hr />
@@ -293,47 +126,246 @@
 											>Enjoy discounted access to eHealth4everyone’s range of
 											products and services
 										</li>
-									</ul>
+									</ul><hr/>
+									<v-btn large color="#413A76" class=" mx-5"
+									><router-link to="/login" style="color: white"
+										>CHOOSE PLAN</router-link
+									></v-btn
+								>
 								</div>
 							</div>
 						</div>
+
+						<div class="col-md-4 col-sm-12">
+							<div
+								class="card text-center text-light container"
+								style=" background-color: #454546; height:1350px"
+							>
+								<h5 class="mt-12">STANDARD</h5>
+								<p class="px-7 mb-6">Make better decisions with custom data</p>
+								<h6><span class="font-weight-bold display-1">₦2,980</span>/month</h6>
+								<p class="px-7">Billed at ₦14,900 every year</p>
+
+								<v-btn large color="#fff" style="width: 50%" class="mx-auto"
+									><router-link to="/login" style="color: black"
+										>CHOOSE PLAN</router-link
+									></v-btn
+								>
+								<hr />
+								<div class="card-body">
+									<ul class="text-left">
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Browse all our publicly available data sources for free!
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Customer Support: Phone calls and Emails
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Receive the latest health data updates from the
+											HealthThink Blog
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Receive the latest digital health updates and industry
+											briefs from our Monthly Newsletter
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Mobile access
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Freely access over 1000 of our specialized commercial
+											databases
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Make better decisions with our customized data view and
+											personal dashboards.
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Deepen data insights with our web- based data analytics,
+											visualization and Interpretation tools
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Share your discoveries by exporting your data and
+											visualizations.
+										</li>
+										<li class="my-5 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Manage your preferred datasets with push notifications
+										</li>
+									</ul>
+									<div style="padding-top: 150px"><hr class="bg-light"/>
+									<v-btn large color="#fff" class=" mx-5"
+									><router-link to="/login" style="color:black"
+										>CHOOSE PLAN</router-link
+									></v-btn
+								></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-12">
+							<div
+								class="text-center"
+								style="height:1350px"
+							>
+								<h5 class="mt-12">BASIC</h5>
+								<p class="mt-6">Search public data at zero cost</p>
+								<h3 class="font-weight-bold display-1 mb-7">FREE</h3>
+							
+								<v-btn large color="#413A76" class="text-light mx-5 mt-6"
+									><router-link to="/login" style="color: white"
+										>BROWSE DATA-FOR FREE</router-link
+									></v-btn
+								>
+								<hr />
+								<div class="card-body">
+									<ul class="text-left list-unstyled">
+										<li class=" d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i>
+											Browse all our publicly available data sources for free!
+										</li>
+										<li class="my-4 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Customer Support: Email only
+										</li>
+										<li class="my-4 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i>
+											Receive the latest health data updates from the
+											HealthThink Blog
+										</li>
+										<li class="my-4 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Receive the latest digital health updates and industry
+											briefs from our Monthly Newsletter
+										</li>
+										<li class="my-4 d-flex">
+											<i
+												class="fa fa-check mr-3"
+												style="font-size:20px;color:green"
+											></i
+											>Mobile access
+										</li>
+									</ul>
+									<div style="padding-top: 630px"><hr/>
+									<v-btn large color="#413A76" class="mx-5"
+									><router-link to="/login" style="color: white"
+										>BROWSE DATA - FOR FREE!</router-link
+									></v-btn
+								></div>
+								</div>
+							</div>
+						</div>
+
 					</div>
+				<!-- </div>
+			</div> -->
+
+			
+		</div>
+		<div style="background-color: #6D6DCC; height: 100px">
+			<div class="container d-flex justify-content-between mt-6" >
+				<p class="text-light">
+					Need more? Our One-Time Data Access plan would allow you a one-time, limited access into our database
+				</p>
+				<button class="bg-light text-dark form-control" style="width:20%">
+					Contact us
+				</button>
+				
+			</div>
+		</div>
+		<div class="container mt-12">
+			<h4 class="text-center">FREQUENTLY ASKED QUESTIONS</h4>
+			<div class="row">
+				<div class="col-md-6">
+					<h5 class="font-weight-bold">Can i change my name at any time?</h5>
+					<p>Yes. Simply click on the "Plan" tab in your profile and you will see your options</p>
+				</div>
+				<div class="col-md-6">
+					<h5 class="font-weight-bold">What type of payment do you accept?</h5>
+					<p>Currently, we accept Visa, Mastercard and Verve</p>
+				</div>
+				<div class="col-md-6">
+					<div class="mb-8">
+					<h5 class="font-weight-bold">Can i stop auto-renewal of plans if i want to?</h5>
+					<p>Absolutely, You can do that from the "Plan" tab in your profile</p>
+					</div>
+					<div>
+						<h5 class="font-weight-bold">what happens if i want to delete my account?</h5>
+						<p>No worries. There are no long-term commitment or complicated contracts.
+						If you decide HealthThink Database isn't right for you, you can easily delete your account from your profile
+					</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h5 class="font-weight-bold">Are there per-user fees</h5>
+					<p>
+						No. The prices you see above are all inclusive. For example, the business plan is ₦8,580/month total no
+						matter how many users you have as it's 5 or less. If you don't see a plan large enough for your team here, we have other
+						plans available <a href="#">please contact us</a>
+					</p>
 				</div>
 			</div>
-
-			<div class="row mt-7">
-				<div
-					class="col-md-4 col-sm-12 text-light"
-					style="background-color: #6154CC"
-				>
-					<div class="mt-12 pt-9 col-md-10 mx-auto">
-						<p class="">
-							You can also join our special plan
-						</p>
-						<h4 class="my-8">ONE-TIME DATA ACCESS</h4>
-						<p class="">
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-							accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-							quae ab illo inventore veritatis et quasi architecto
-						</p>
-						<v-btn
-							large
-							color="#413A76"
-							class="text-light mt-2"
-							style="background-color: #E8EFF7"
-							><router-link to="/contact">contact us</router-link></v-btn
-						>
-					</div>
-				</div>
-				<div class="col-md-7 col-sm-12">
-					<img src="../../assets/images/PlanImg.png" width="100%" />
-				</div>
+			<div class="mt-12 col-md-8 col-sm-12 mx-auto" >
+			<p class="text-center">
+				View our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>. If you have questions
+				about HealthThink Database or the signup process, you can <a href="#">contact us</a> and we'll get right back to you
+			</p>
 			</div>
 		</div>
 		<div class="container-fluid">
 			<section id="testimonial">
 				<div class="container mt-12">
-					<h1 class="text-center">Testimonials</h1>
+					<h3 class="text-center text-uppercase">Testimonials</h3>
 					<v-carousel
 						cycle
 						height="250"

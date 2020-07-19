@@ -2,7 +2,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top">
 		<div class="container" v-if="!isLoggedIn">
 			<router-link class="" exact to="/">
-				<img src="../../assets/images/healththink_logo.svg" width="70%" />
+				<img src="../../assets/images/logo.jpg" width="20%" />
 			</router-link>
 			<button
 				class="navbar-toggler bg-dark"
@@ -17,18 +17,18 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item mr-12">
+					<li class="nav-item mr-10">
 						<router-link class="nav-link" to="/about">About</router-link>
 					</li>
-					<li class="nav-item ml-6">
+					<li class="nav-item ml-6 pl-10">
 						<router-link class="nav-link" to="/resources">Insights</router-link>
 					</li>
-					<li class="nav-item ml-12">
+					<li class="nav-item ml-12 pl-10">
 						<router-link class="nav-link" to="/faq">FAQs</router-link>
 					</li>
-					<li class="nav-item ml-12 pl-12">
+					<li class="nav-item ml-10 pl-10">
 						<router-link exact to="/contact" class="nav-link"
-							>Contact Us</router-link
+							>Contact</router-link
 						>
 					</li>
 				</ul>
@@ -43,9 +43,9 @@
 					<li class="nav-item">
 						<button
 							@click="navigateToLogin"
-							class="py-1 mt-2 px-6 button2 form-control"
+							class="py-1 mt-2 px-12 button2 form-control"
 						>
-							<small>START FOR FREE</small>
+							<small>REGISTER </small>
 						</button>
 					</li>
 				</ul>
@@ -53,7 +53,7 @@
 		</div>
 		<div class="container" v-if="isLoggedIn">
 			<router-link class="nav-link" exact to="">
-				<img src="../../assets/images/healththink_logo.svg" width="70%" />
+				<img src="../../assets/images/logo.jpg" width="20%" />
 			</router-link>
 			<button
 				class="navbar-toggler bg-dark"
@@ -84,12 +84,8 @@
 						>
 					</li>
 					<li class="nav-item ml-12">
-						<a
-							href="https://healththink.org/"
-							target="__blank__"
-							style="color:black !important"
-							class="nav-link"
-							>HealthThink Blog</a
+						<router-link exact to="#" class="nav-link"
+							>HealthData4You Blog</router-link
 						>
 					</li>
 				</ul>
